@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_con
+    environment:
+      POSTGRES_USER: Belokurov
+      POSTGRES_PASSWORD: qwerty123
+      POSTGRES_DB: DataBase9
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:

@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "Belokurov",
+    "password": "qwerty123",
+    "database": "DataBase9",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "Belokurov",
+    "password": "qwerty123",
+    "database": "DataBase9",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Belokurov",
+    "password": "qwerty123",
+    "database": "DataBase9",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
